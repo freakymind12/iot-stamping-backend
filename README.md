@@ -13,6 +13,14 @@ Template backend project yang telah memiliki fitur
 
 1. Clone repositori ini.
 2. Buat file .env untuk koneksi database dan JWT secret key
+
+  DB_HOST=localhost
+  DB_NAME=yourdb
+  DB_PASSWORD=password
+  DB_USERNAME=username
+  PORT=5001
+  JWT_SECRET=your-secret-key
+
 3. Jalankan perintah `npm install` untuk menginstal dependensi.
 4. Jalankan perintah `npm start` untuk memulai proyek.
 
